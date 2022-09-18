@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="intro-header space-between padding-top2">
+    <header class="intro-header space-between padding-top2 pos-fixed">
       <div class="logo"><img src="./assets/profile.png" alt="Logo" /></div>
       <nav class="navigation space-between poppins">
         <a href="" class="portfolio link-style">Portfoilio</a
@@ -35,7 +35,7 @@
       <h5 class="connect poppins">Let's connect</h5>
       <ul class="social space-between">
         <li class="github">
-          <a href="https://github.com/basem909" 
+          <a href="https://github.com/basem909"
             ><img class="icon" src="./assets/github.svg" alt="github icon"
           /></a>
         </li>
@@ -46,7 +46,10 @@
         </li>
         <li class="linked">
           <a href="https://www.linkedin.com/in/bassem-shams/"
-            ><img class="icon" src="./assets/Linkedin icon.svg" alt="linked-in icon"
+            ><img
+              class="icon"
+              src="./assets/Linkedin icon.svg"
+              alt="linked-in icon"
           /></a>
         </li>
         <li class="angelist">
@@ -56,10 +59,32 @@
         </li>
       </ul>
     </section>
-    <section class="project-cards">
-      <article class="project">
-        <img src="" alt="project screenshot" class="screen">
-        <div class="project-details"></div>
+    <section class="project-cards space-between flex-col align-center">
+      <article class="project space-between width-70">
+        <img
+          src="https://i.pinimg.com/564x/77/f9/03/77f9035ea34a186ae54096927e949dbd.jpg"
+          alt="project screenshot"
+          class="screen width-half"
+        />
+        <div class="project-details width-half padding-top2 flex-col logo">
+          <h2 class="project-title ">Coffe shop</h2>
+          <ul class="space-between pro-list size-half">
+            <li class="name">Shop</li>
+            <li class="role">Full-stack</li>
+            <li class="year">2022</li>
+          </ul>
+          <p class="project-description">
+            This section contains the project description and some special
+            features or technologies used within the structure of this project
+          </p>
+          <ul class="space-between pro-list space-between size-half">
+            <li class="tech">Ruby on rails</li>
+            <li class="tech">JavaScript</li>
+            <li class="tech">HTML</li>
+            <li class="tech">CSS</li>
+          </ul>
+          <button class="pro-button">See Project</button>
+        </div>
       </article>
     </section>
   </body>
