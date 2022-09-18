@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 0 3vw;
+}
+
+.logo > img {
+  height: 3vw;
+  width: 3vw;
+}
+
+.padding-top2 {
+  padding-top: 2vh;
+
+}
+
+.navigation {
+  width: 30vw;
+  padding-right: 10vw;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.padding-5 {
+  padding: 10vw;
+}
+
+.intro {
+  background-image: url("./assets/Header\ bg.svg");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  font-size: 5vw;
+  font-weight: 700;
+}
+
+.connect {
+  color: #7f8cff;
+  font-weight: 500;
+  margin: 2vw 0;
+  font-size: 2.5vw;
+}
+
+.social {
+  list-style-type: none;
+  width: 30%;
+  margin: 0;
+  padding: 1vw;
+}
+
+.link-style {
+  text-decoration: none;
+  font-size: 1.8vw;
+  color: #344563;
+}
+
+p {
+  font-size: 2vw;
+  font-family: "Poppins", sans-serif;
+}
+
+.icon {
+  width: 3vw;
+  height: 3vw;
+}
+
+.white-back {
+  background-color: white;
+}
